@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "dictionary",
+    "version": "1.0.0",
+    "description": "A extension for hard words to grasp",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "index.html"
+    },
+    "content_scripts": [ {
+        "matches" : ["*://*/*"],
+        "js" :["fetch.js"]
+    }]
+  }
+  
