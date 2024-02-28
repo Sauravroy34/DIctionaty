@@ -21,3 +21,14 @@ body {
 #name {
     font-size: 25px;
 }
+#next {
+    position: absolute;
+    left:20%;
+    top:8%;
+}
+
+#previous {
+    position: absolute;
+    right:20%;
+    top:8%;
+}
